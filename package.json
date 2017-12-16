@@ -1,0 +1,18 @@
+{
+  "name": "fake-idol-api",
+  "version": "1.0.0",
+  "repository": "ssh://git@github.com/itosho/fake-idol-api.git",
+  "license": "MIT",
+  "dependencies": {
+    "apidoc": "^0.17.6"
+  },
+  "scripts": {
+    "apidoc": "apidoc -f handler.go -o doc"
+  },
+  "apidoc": {
+    "name": "Fake Idol API",
+    "title": "Fake Idol API Docs",
+    "description" : "Example API Docs usging APIDOC",
+    "url" : "https://api.fake-idol.example.com/v1"
+  }
+}
